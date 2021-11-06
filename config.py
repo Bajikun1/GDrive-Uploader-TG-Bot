@@ -3,10 +3,10 @@ import os
 class Config:
   ENV = bool(os.environ.get('ENV', False))
   if ENV:
-    BOT_TOKEN = os.environ.get('BOT_TOKEN')
-    APP_ID = os.environ.get('APP_ID')
+    BOT_TOKEN = os.environ.get('2138409100:AAHXYMOSj4XTkG6OHj2NnR2kVHdmWcgittY')
+    APP_ID = os.environ.get('6773253')
     API_HASH = os.environ.get('API_HASH')
-    DATABASE_URL = os.environ.get('DATABASE_URL')
+    DATABASE_URL = os.environ.get('postgres://mumzifyvigpqam:57a50db1def7efa59eb5725dddbd18a1162616fb9bdcd9ba38ebf6e0942793cd@ec2-34-200-139-9.compute-1.amazonaws.com:5432/db0f2qrj848idm')
   else:
     BOT_TOKEN = '1394534244:AAHbVTthzn1sNbclrt9lyrrSt_Msvz46jWA' # Get it from https://t.me/BotFather
     APP_ID = '1680362' # Get it from my.telegram.org/apps
